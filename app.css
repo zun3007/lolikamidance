@@ -1,0 +1,2440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.miho {
+  width: 70vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: miho 24s infinite;
+}
+
+@keyframes miho {
+  0%,
+  100% {
+    background-image: url('images/loligod/000000.jpg');
+  }
+
+  0.17% {
+    background-image: url('images/loligod/000001.jpg');
+  }
+
+  0.33% {
+    background-image: url('images/loligod/000002.jpg');
+  }
+
+  0.50% {
+    background-image: url('images/loligod/000003.jpg');
+  }
+
+  0.67% {
+    background-image: url('images/loligod/000004.jpg');
+  }
+
+  0.83% {
+    background-image: url('images/loligod/000005.jpg');
+  }
+
+  1.00% {
+    background-image: url('images/loligod/000006.jpg');
+  }
+
+  1.17% {
+    background-image: url('images/loligod/000007.jpg');
+  }
+
+  1.33% {
+    background-image: url('images/loligod/000008.jpg');
+  }
+
+  1.50% {
+    background-image: url('images/loligod/000009.jpg');
+  }
+
+  1.67% {
+    background-image: url('images/loligod/000010.jpg');
+  }
+
+  1.83% {
+    background-image: url('images/loligod/000011.jpg');
+  }
+
+  2.00% {
+    background-image: url('images/loligod/000012.jpg');
+  }
+
+  2.17% {
+    background-image: url('images/loligod/000013.jpg');
+  }
+
+  2.33% {
+    background-image: url('images/loligod/000014.jpg');
+  }
+
+  2.50% {
+    background-image: url('images/loligod/000015.jpg');
+  }
+
+  2.67% {
+    background-image: url('images/loligod/000016.jpg');
+  }
+
+  2.83% {
+    background-image: url('images/loligod/000017.jpg');
+  }
+
+  3.00% {
+    background-image: url('images/loligod/000018.jpg');
+  }
+
+  3.17% {
+    background-image: url('images/loligod/000019.jpg');
+  }
+
+  3.33% {
+    background-image: url('images/loligod/000020.jpg');
+  }
+
+  3.50% {
+    background-image: url('images/loligod/000021.jpg');
+  }
+
+  3.67% {
+    background-image: url('images/loligod/000022.jpg');
+  }
+
+  3.83% {
+    background-image: url('images/loligod/000023.jpg');
+  }
+
+  4.00% {
+    background-image: url('images/loligod/000024.jpg');
+  }
+
+  4.17% {
+    background-image: url('images/loligod/000025.jpg');
+  }
+
+  4.33% {
+    background-image: url('images/loligod/000026.jpg');
+  }
+
+  4.50% {
+    background-image: url('images/loligod/000027.jpg');
+  }
+
+  4.67% {
+    background-image: url('images/loligod/000028.jpg');
+  }
+
+  4.83% {
+    background-image: url('images/loligod/000029.jpg');
+  }
+
+  5.00% {
+    background-image: url('images/loligod/000030.jpg');
+  }
+
+  5.17% {
+    background-image: url('images/loligod/000031.jpg');
+  }
+
+  5.33% {
+    background-image: url('images/loligod/000032.jpg');
+  }
+
+  5.50% {
+    background-image: url('images/loligod/000033.jpg');
+  }
+
+  5.67% {
+    background-image: url('images/loligod/000034.jpg');
+  }
+
+  5.83% {
+    background-image: url('images/loligod/000035.jpg');
+  }
+
+  6.00% {
+    background-image: url('images/loligod/000036.jpg');
+  }
+
+  6.17% {
+    background-image: url('images/loligod/000037.jpg');
+  }
+
+  6.33% {
+    background-image: url('images/loligod/000038.jpg');
+  }
+
+  6.50% {
+    background-image: url('images/loligod/000039.jpg');
+  }
+
+  6.67% {
+    background-image: url('images/loligod/000040.jpg');
+  }
+
+  6.83% {
+    background-image: url('images/loligod/000041.jpg');
+  }
+
+  7.00% {
+    background-image: url('images/loligod/000042.jpg');
+  }
+
+  7.17% {
+    background-image: url('images/loligod/000043.jpg');
+  }
+
+  7.33% {
+    background-image: url('images/loligod/000044.jpg');
+  }
+
+  7.50% {
+    background-image: url('images/loligod/000045.jpg');
+  }
+
+  7.67% {
+    background-image: url('images/loligod/000046.jpg');
+  }
+
+  7.83% {
+    background-image: url('images/loligod/000047.jpg');
+  }
+
+  8.00% {
+    background-image: url('images/loligod/000048.jpg');
+  }
+
+  8.17% {
+    background-image: url('images/loligod/000049.jpg');
+  }
+
+  8.33% {
+    background-image: url('images/loligod/000050.jpg');
+  }
+
+  8.50% {
+    background-image: url('images/loligod/000051.jpg');
+  }
+
+  8.67% {
+    background-image: url('images/loligod/000052.jpg');
+  }
+
+  8.83% {
+    background-image: url('images/loligod/000053.jpg');
+  }
+
+  9.00% {
+    background-image: url('images/loligod/000054.jpg');
+  }
+
+  9.17% {
+    background-image: url('images/loligod/000055.jpg');
+  }
+
+  9.33% {
+    background-image: url('images/loligod/000056.jpg');
+  }
+
+  9.50% {
+    background-image: url('images/loligod/000057.jpg');
+  }
+
+  9.67% {
+    background-image: url('images/loligod/000058.jpg');
+  }
+
+  9.83% {
+    background-image: url('images/loligod/000059.jpg');
+  }
+
+  10.00% {
+    background-image: url('images/loligod/000060.jpg');
+  }
+
+  10.17% {
+    background-image: url('images/loligod/000061.jpg');
+  }
+
+  10.33% {
+    background-image: url('images/loligod/000062.jpg');
+  }
+
+  10.50% {
+    background-image: url('images/loligod/000063.jpg');
+  }
+
+  10.67% {
+    background-image: url('images/loligod/000064.jpg');
+  }
+
+  10.83% {
+    background-image: url('images/loligod/000065.jpg');
+  }
+
+  11.00% {
+    background-image: url('images/loligod/000066.jpg');
+  }
+
+  11.17% {
+    background-image: url('images/loligod/000067.jpg');
+  }
+
+  11.33% {
+    background-image: url('images/loligod/000068.jpg');
+  }
+
+  11.50% {
+    background-image: url('images/loligod/000069.jpg');
+  }
+
+  11.67% {
+    background-image: url('images/loligod/000070.jpg');
+  }
+
+  11.83% {
+    background-image: url('images/loligod/000071.jpg');
+  }
+
+  12.00% {
+    background-image: url('images/loligod/000072.jpg');
+  }
+
+  12.17% {
+    background-image: url('images/loligod/000073.jpg');
+  }
+
+  12.33% {
+    background-image: url('images/loligod/000074.jpg');
+  }
+
+  12.50% {
+    background-image: url('images/loligod/000075.jpg');
+  }
+
+  12.67% {
+    background-image: url('images/loligod/000076.jpg');
+  }
+
+  12.83% {
+    background-image: url('images/loligod/000077.jpg');
+  }
+
+  13.00% {
+    background-image: url('images/loligod/000078.jpg');
+  }
+
+  13.17% {
+    background-image: url('images/loligod/000079.jpg');
+  }
+
+  13.33% {
+    background-image: url('images/loligod/000080.jpg');
+  }
+
+  13.50% {
+    background-image: url('images/loligod/000081.jpg');
+  }
+
+  13.67% {
+    background-image: url('images/loligod/000082.jpg');
+  }
+
+  13.83% {
+    background-image: url('images/loligod/000083.jpg');
+  }
+
+  14.00% {
+    background-image: url('images/loligod/000084.jpg');
+  }
+
+  14.17% {
+    background-image: url('images/loligod/000085.jpg');
+  }
+
+  14.33% {
+    background-image: url('images/loligod/000086.jpg');
+  }
+
+  14.50% {
+    background-image: url('images/loligod/000087.jpg');
+  }
+
+  14.67% {
+    background-image: url('images/loligod/000088.jpg');
+  }
+
+  14.83% {
+    background-image: url('images/loligod/000089.jpg');
+  }
+
+  15.00% {
+    background-image: url('images/loligod/000090.jpg');
+  }
+
+  15.17% {
+    background-image: url('images/loligod/000091.jpg');
+  }
+
+  15.33% {
+    background-image: url('images/loligod/000092.jpg');
+  }
+
+  15.50% {
+    background-image: url('images/loligod/000093.jpg');
+  }
+
+  15.67% {
+    background-image: url('images/loligod/000094.jpg');
+  }
+
+  15.83% {
+    background-image: url('images/loligod/000095.jpg');
+  }
+
+  16.00% {
+    background-image: url('images/loligod/000096.jpg');
+  }
+
+  16.17% {
+    background-image: url('images/loligod/000097.jpg');
+  }
+
+  16.33% {
+    background-image: url('images/loligod/000098.jpg');
+  }
+
+  16.50% {
+    background-image: url('images/loligod/000099.jpg');
+  }
+
+  16.67% {
+    background-image: url('images/loligod/000100.jpg');
+  }
+
+  16.83% {
+    background-image: url('images/loligod/000101.jpg');
+  }
+
+  17.00% {
+    background-image: url('images/loligod/000102.jpg');
+  }
+
+  17.17% {
+    background-image: url('images/loligod/000103.jpg');
+  }
+
+  17.33% {
+    background-image: url('images/loligod/000104.jpg');
+  }
+
+  17.50% {
+    background-image: url('images/loligod/000105.jpg');
+  }
+
+  17.67% {
+    background-image: url('images/loligod/000106.jpg');
+  }
+
+  17.83% {
+    background-image: url('images/loligod/000107.jpg');
+  }
+
+  18.00% {
+    background-image: url('images/loligod/000108.jpg');
+  }
+
+  18.17% {
+    background-image: url('images/loligod/000109.jpg');
+  }
+
+  18.33% {
+    background-image: url('images/loligod/000110.jpg');
+  }
+
+  18.50% {
+    background-image: url('images/loligod/000111.jpg');
+  }
+
+  18.67% {
+    background-image: url('images/loligod/000112.jpg');
+  }
+
+  18.83% {
+    background-image: url('images/loligod/000113.jpg');
+  }
+
+  19.00% {
+    background-image: url('images/loligod/000114.jpg');
+  }
+
+  19.17% {
+    background-image: url('images/loligod/000115.jpg');
+  }
+
+  19.33% {
+    background-image: url('images/loligod/000116.jpg');
+  }
+
+  19.50% {
+    background-image: url('images/loligod/000117.jpg');
+  }
+
+  19.67% {
+    background-image: url('images/loligod/000118.jpg');
+  }
+
+  19.83% {
+    background-image: url('images/loligod/000119.jpg');
+  }
+
+  20.00% {
+    background-image: url('images/loligod/000120.jpg');
+  }
+
+  20.17% {
+    background-image: url('images/loligod/000121.jpg');
+  }
+
+  20.33% {
+    background-image: url('images/loligod/000122.jpg');
+  }
+
+  20.50% {
+    background-image: url('images/loligod/000123.jpg');
+  }
+
+  20.67% {
+    background-image: url('images/loligod/000124.jpg');
+  }
+
+  20.83% {
+    background-image: url('images/loligod/000125.jpg');
+  }
+
+  21.00% {
+    background-image: url('images/loligod/000126.jpg');
+  }
+
+  21.17% {
+    background-image: url('images/loligod/000127.jpg');
+  }
+
+  21.33% {
+    background-image: url('images/loligod/000128.jpg');
+  }
+
+  21.50% {
+    background-image: url('images/loligod/000129.jpg');
+  }
+
+  21.67% {
+    background-image: url('images/loligod/000130.jpg');
+  }
+
+  21.83% {
+    background-image: url('images/loligod/000131.jpg');
+  }
+
+  22.00% {
+    background-image: url('images/loligod/000132.jpg');
+  }
+
+  22.17% {
+    background-image: url('images/loligod/000133.jpg');
+  }
+
+  22.33% {
+    background-image: url('images/loligod/000134.jpg');
+  }
+
+  22.50% {
+    background-image: url('images/loligod/000135.jpg');
+  }
+
+  22.67% {
+    background-image: url('images/loligod/000136.jpg');
+  }
+
+  22.83% {
+    background-image: url('images/loligod/000137.jpg');
+  }
+
+  23.00% {
+    background-image: url('images/loligod/000138.jpg');
+  }
+
+  23.17% {
+    background-image: url('images/loligod/000139.jpg');
+  }
+
+  23.33% {
+    background-image: url('images/loligod/000140.jpg');
+  }
+
+  23.50% {
+    background-image: url('images/loligod/000141.jpg');
+  }
+
+  23.67% {
+    background-image: url('images/loligod/000142.jpg');
+  }
+
+  23.83% {
+    background-image: url('images/loligod/000143.jpg');
+  }
+
+  24.00% {
+    background-image: url('images/loligod/000144.jpg');
+  }
+
+  24.17% {
+    background-image: url('images/loligod/000145.jpg');
+  }
+
+  24.33% {
+    background-image: url('images/loligod/000146.jpg');
+  }
+
+  24.50% {
+    background-image: url('images/loligod/000147.jpg');
+  }
+
+  24.67% {
+    background-image: url('images/loligod/000148.jpg');
+  }
+
+  24.83% {
+    background-image: url('images/loligod/000149.jpg');
+  }
+
+  25.00% {
+    background-image: url('images/loligod/000150.jpg');
+  }
+
+  25.17% {
+    background-image: url('images/loligod/000151.jpg');
+  }
+
+  25.33% {
+    background-image: url('images/loligod/000152.jpg');
+  }
+
+  25.50% {
+    background-image: url('images/loligod/000153.jpg');
+  }
+
+  25.67% {
+    background-image: url('images/loligod/000154.jpg');
+  }
+
+  25.83% {
+    background-image: url('images/loligod/000155.jpg');
+  }
+
+  26.00% {
+    background-image: url('images/loligod/000156.jpg');
+  }
+
+  26.17% {
+    background-image: url('images/loligod/000157.jpg');
+  }
+
+  26.33% {
+    background-image: url('images/loligod/000158.jpg');
+  }
+
+  26.50% {
+    background-image: url('images/loligod/000159.jpg');
+  }
+
+  26.67% {
+    background-image: url('images/loligod/000160.jpg');
+  }
+
+  26.83% {
+    background-image: url('images/loligod/000161.jpg');
+  }
+
+  27.00% {
+    background-image: url('images/loligod/000162.jpg');
+  }
+
+  27.17% {
+    background-image: url('images/loligod/000163.jpg');
+  }
+
+  27.33% {
+    background-image: url('images/loligod/000164.jpg');
+  }
+
+  27.50% {
+    background-image: url('images/loligod/000165.jpg');
+  }
+
+  27.67% {
+    background-image: url('images/loligod/000166.jpg');
+  }
+
+  27.83% {
+    background-image: url('images/loligod/000167.jpg');
+  }
+
+  28.00% {
+    background-image: url('images/loligod/000168.jpg');
+  }
+
+  28.17% {
+    background-image: url('images/loligod/000169.jpg');
+  }
+
+  28.33% {
+    background-image: url('images/loligod/000170.jpg');
+  }
+
+  28.50% {
+    background-image: url('images/loligod/000171.jpg');
+  }
+
+  28.67% {
+    background-image: url('images/loligod/000172.jpg');
+  }
+
+  28.83% {
+    background-image: url('images/loligod/000173.jpg');
+  }
+
+  29.00% {
+    background-image: url('images/loligod/000174.jpg');
+  }
+
+  29.17% {
+    background-image: url('images/loligod/000175.jpg');
+  }
+
+  29.33% {
+    background-image: url('images/loligod/000176.jpg');
+  }
+
+  29.50% {
+    background-image: url('images/loligod/000177.jpg');
+  }
+
+  29.67% {
+    background-image: url('images/loligod/000178.jpg');
+  }
+
+  29.83% {
+    background-image: url('images/loligod/000179.jpg');
+  }
+
+  30.00% {
+    background-image: url('images/loligod/000180.jpg');
+  }
+
+  30.17% {
+    background-image: url('images/loligod/000181.jpg');
+  }
+
+  30.33% {
+    background-image: url('images/loligod/000182.jpg');
+  }
+
+  30.50% {
+    background-image: url('images/loligod/000183.jpg');
+  }
+
+  30.67% {
+    background-image: url('images/loligod/000184.jpg');
+  }
+
+  30.83% {
+    background-image: url('images/loligod/000185.jpg');
+  }
+
+  31.00% {
+    background-image: url('images/loligod/000186.jpg');
+  }
+
+  31.17% {
+    background-image: url('images/loligod/000187.jpg');
+  }
+
+  31.33% {
+    background-image: url('images/loligod/000188.jpg');
+  }
+
+  31.50% {
+    background-image: url('images/loligod/000189.jpg');
+  }
+
+  31.67% {
+    background-image: url('images/loligod/000190.jpg');
+  }
+
+  31.83% {
+    background-image: url('images/loligod/000191.jpg');
+  }
+
+  32.00% {
+    background-image: url('images/loligod/000192.jpg');
+  }
+
+  32.17% {
+    background-image: url('images/loligod/000193.jpg');
+  }
+
+  32.33% {
+    background-image: url('images/loligod/000194.jpg');
+  }
+
+  32.50% {
+    background-image: url('images/loligod/000195.jpg');
+  }
+
+  32.67% {
+    background-image: url('images/loligod/000196.jpg');
+  }
+
+  32.83% {
+    background-image: url('images/loligod/000197.jpg');
+  }
+
+  33.00% {
+    background-image: url('images/loligod/000198.jpg');
+  }
+
+  33.17% {
+    background-image: url('images/loligod/000199.jpg');
+  }
+
+  33.33% {
+    background-image: url('images/loligod/000200.jpg');
+  }
+
+  33.50% {
+    background-image: url('images/loligod/000201.jpg');
+  }
+
+  33.67% {
+    background-image: url('images/loligod/000202.jpg');
+  }
+
+  33.83% {
+    background-image: url('images/loligod/000203.jpg');
+  }
+
+  34.00% {
+    background-image: url('images/loligod/000204.jpg');
+  }
+
+  34.17% {
+    background-image: url('images/loligod/000205.jpg');
+  }
+
+  34.33% {
+    background-image: url('images/loligod/000206.jpg');
+  }
+
+  34.50% {
+    background-image: url('images/loligod/000207.jpg');
+  }
+
+  34.67% {
+    background-image: url('images/loligod/000208.jpg');
+  }
+
+  34.83% {
+    background-image: url('images/loligod/000209.jpg');
+  }
+
+  35.00% {
+    background-image: url('images/loligod/000210.jpg');
+  }
+
+  35.17% {
+    background-image: url('images/loligod/000211.jpg');
+  }
+
+  35.33% {
+    background-image: url('images/loligod/000212.jpg');
+  }
+
+  35.50% {
+    background-image: url('images/loligod/000213.jpg');
+  }
+
+  35.67% {
+    background-image: url('images/loligod/000214.jpg');
+  }
+
+  35.83% {
+    background-image: url('images/loligod/000215.jpg');
+  }
+
+  36.00% {
+    background-image: url('images/loligod/000216.jpg');
+  }
+
+  36.17% {
+    background-image: url('images/loligod/000217.jpg');
+  }
+
+  36.33% {
+    background-image: url('images/loligod/000218.jpg');
+  }
+
+  36.50% {
+    background-image: url('images/loligod/000219.jpg');
+  }
+
+  36.67% {
+    background-image: url('images/loligod/000220.jpg');
+  }
+
+  36.83% {
+    background-image: url('images/loligod/000221.jpg');
+  }
+
+  37.00% {
+    background-image: url('images/loligod/000222.jpg');
+  }
+
+  37.17% {
+    background-image: url('images/loligod/000223.jpg');
+  }
+
+  37.33% {
+    background-image: url('images/loligod/000224.jpg');
+  }
+
+  37.50% {
+    background-image: url('images/loligod/000225.jpg');
+  }
+
+  37.67% {
+    background-image: url('images/loligod/000226.jpg');
+  }
+
+  37.83% {
+    background-image: url('images/loligod/000227.jpg');
+  }
+
+  38.00% {
+    background-image: url('images/loligod/000228.jpg');
+  }
+
+  38.17% {
+    background-image: url('images/loligod/000229.jpg');
+  }
+
+  38.33% {
+    background-image: url('images/loligod/000230.jpg');
+  }
+
+  38.50% {
+    background-image: url('images/loligod/000231.jpg');
+  }
+
+  38.67% {
+    background-image: url('images/loligod/000232.jpg');
+  }
+
+  38.83% {
+    background-image: url('images/loligod/000233.jpg');
+  }
+
+  39.00% {
+    background-image: url('images/loligod/000234.jpg');
+  }
+
+  39.17% {
+    background-image: url('images/loligod/000235.jpg');
+  }
+
+  39.33% {
+    background-image: url('images/loligod/000236.jpg');
+  }
+
+  39.50% {
+    background-image: url('images/loligod/000237.jpg');
+  }
+
+  39.67% {
+    background-image: url('images/loligod/000238.jpg');
+  }
+
+  39.83% {
+    background-image: url('images/loligod/000239.jpg');
+  }
+
+  40.00% {
+    background-image: url('images/loligod/000240.jpg');
+  }
+
+  40.17% {
+    background-image: url('images/loligod/000241.jpg');
+  }
+
+  40.33% {
+    background-image: url('images/loligod/000242.jpg');
+  }
+
+  40.50% {
+    background-image: url('images/loligod/000243.jpg');
+  }
+
+  40.67% {
+    background-image: url('images/loligod/000244.jpg');
+  }
+
+  40.83% {
+    background-image: url('images/loligod/000245.jpg');
+  }
+
+  41.00% {
+    background-image: url('images/loligod/000246.jpg');
+  }
+
+  41.17% {
+    background-image: url('images/loligod/000247.jpg');
+  }
+
+  41.33% {
+    background-image: url('images/loligod/000248.jpg');
+  }
+
+  41.50% {
+    background-image: url('images/loligod/000249.jpg');
+  }
+
+  41.67% {
+    background-image: url('images/loligod/000250.jpg');
+  }
+
+  41.83% {
+    background-image: url('images/loligod/000251.jpg');
+  }
+
+  42.00% {
+    background-image: url('images/loligod/000252.jpg');
+  }
+
+  42.17% {
+    background-image: url('images/loligod/000253.jpg');
+  }
+
+  42.33% {
+    background-image: url('images/loligod/000254.jpg');
+  }
+
+  42.50% {
+    background-image: url('images/loligod/000255.jpg');
+  }
+
+  42.67% {
+    background-image: url('images/loligod/000256.jpg');
+  }
+
+  42.83% {
+    background-image: url('images/loligod/000257.jpg');
+  }
+
+  43.00% {
+    background-image: url('images/loligod/000258.jpg');
+  }
+
+  43.17% {
+    background-image: url('images/loligod/000259.jpg');
+  }
+
+  43.33% {
+    background-image: url('images/loligod/000260.jpg');
+  }
+
+  43.50% {
+    background-image: url('images/loligod/000261.jpg');
+  }
+
+  43.67% {
+    background-image: url('images/loligod/000262.jpg');
+  }
+
+  43.83% {
+    background-image: url('images/loligod/000263.jpg');
+  }
+
+  44.00% {
+    background-image: url('images/loligod/000264.jpg');
+  }
+
+  44.17% {
+    background-image: url('images/loligod/000265.jpg');
+  }
+
+  44.33% {
+    background-image: url('images/loligod/000266.jpg');
+  }
+
+  44.50% {
+    background-image: url('images/loligod/000267.jpg');
+  }
+
+  44.67% {
+    background-image: url('images/loligod/000268.jpg');
+  }
+
+  44.83% {
+    background-image: url('images/loligod/000269.jpg');
+  }
+
+  45.00% {
+    background-image: url('images/loligod/000270.jpg');
+  }
+
+  45.17% {
+    background-image: url('images/loligod/000271.jpg');
+  }
+
+  45.33% {
+    background-image: url('images/loligod/000272.jpg');
+  }
+
+  45.50% {
+    background-image: url('images/loligod/000273.jpg');
+  }
+
+  45.67% {
+    background-image: url('images/loligod/000274.jpg');
+  }
+
+  45.83% {
+    background-image: url('images/loligod/000275.jpg');
+  }
+
+  46.00% {
+    background-image: url('images/loligod/000276.jpg');
+  }
+
+  46.17% {
+    background-image: url('images/loligod/000277.jpg');
+  }
+
+  46.33% {
+    background-image: url('images/loligod/000278.jpg');
+  }
+
+  46.50% {
+    background-image: url('images/loligod/000279.jpg');
+  }
+
+  46.67% {
+    background-image: url('images/loligod/000280.jpg');
+  }
+
+  46.83% {
+    background-image: url('images/loligod/000281.jpg');
+  }
+
+  47.00% {
+    background-image: url('images/loligod/000282.jpg');
+  }
+
+  47.17% {
+    background-image: url('images/loligod/000283.jpg');
+  }
+
+  47.33% {
+    background-image: url('images/loligod/000284.jpg');
+  }
+
+  47.50% {
+    background-image: url('images/loligod/000285.jpg');
+  }
+
+  47.67% {
+    background-image: url('images/loligod/000286.jpg');
+  }
+
+  47.83% {
+    background-image: url('images/loligod/000287.jpg');
+  }
+
+  48.00% {
+    background-image: url('images/loligod/000288.jpg');
+  }
+
+  48.17% {
+    background-image: url('images/loligod/000289.jpg');
+  }
+
+  48.33% {
+    background-image: url('images/loligod/000290.jpg');
+  }
+
+  48.50% {
+    background-image: url('images/loligod/000291.jpg');
+  }
+
+  48.67% {
+    background-image: url('images/loligod/000292.jpg');
+  }
+
+  48.83% {
+    background-image: url('images/loligod/000293.jpg');
+  }
+
+  49.00% {
+    background-image: url('images/loligod/000294.jpg');
+  }
+
+  49.17% {
+    background-image: url('images/loligod/000295.jpg');
+  }
+
+  49.33% {
+    background-image: url('images/loligod/000296.jpg');
+  }
+
+  49.50% {
+    background-image: url('images/loligod/000297.jpg');
+  }
+
+  49.67% {
+    background-image: url('images/loligod/000298.jpg');
+  }
+
+  49.83% {
+    background-image: url('images/loligod/000299.jpg');
+  }
+
+  50.00% {
+    background-image: url('images/loligod/000300.jpg');
+  }
+
+  50.17% {
+    background-image: url('images/loligod/000301.jpg');
+  }
+
+  50.33% {
+    background-image: url('images/loligod/000302.jpg');
+  }
+
+  50.50% {
+    background-image: url('images/loligod/000303.jpg');
+  }
+
+  50.67% {
+    background-image: url('images/loligod/000304.jpg');
+  }
+
+  50.83% {
+    background-image: url('images/loligod/000305.jpg');
+  }
+
+  51.00% {
+    background-image: url('images/loligod/000306.jpg');
+  }
+
+  51.17% {
+    background-image: url('images/loligod/000307.jpg');
+  }
+
+  51.33% {
+    background-image: url('images/loligod/000308.jpg');
+  }
+
+  51.50% {
+    background-image: url('images/loligod/000309.jpg');
+  }
+
+  51.67% {
+    background-image: url('images/loligod/000310.jpg');
+  }
+
+  51.83% {
+    background-image: url('images/loligod/000311.jpg');
+  }
+
+  52.00% {
+    background-image: url('images/loligod/000312.jpg');
+  }
+
+  52.17% {
+    background-image: url('images/loligod/000313.jpg');
+  }
+
+  52.33% {
+    background-image: url('images/loligod/000314.jpg');
+  }
+
+  52.50% {
+    background-image: url('images/loligod/000315.jpg');
+  }
+
+  52.67% {
+    background-image: url('images/loligod/000316.jpg');
+  }
+
+  52.83% {
+    background-image: url('images/loligod/000317.jpg');
+  }
+
+  53.00% {
+    background-image: url('images/loligod/000318.jpg');
+  }
+
+  53.17% {
+    background-image: url('images/loligod/000319.jpg');
+  }
+
+  53.33% {
+    background-image: url('images/loligod/000320.jpg');
+  }
+
+  53.50% {
+    background-image: url('images/loligod/000321.jpg');
+  }
+
+  53.67% {
+    background-image: url('images/loligod/000322.jpg');
+  }
+
+  53.83% {
+    background-image: url('images/loligod/000323.jpg');
+  }
+
+  54.00% {
+    background-image: url('images/loligod/000324.jpg');
+  }
+
+  54.17% {
+    background-image: url('images/loligod/000325.jpg');
+  }
+
+  54.33% {
+    background-image: url('images/loligod/000326.jpg');
+  }
+
+  54.50% {
+    background-image: url('images/loligod/000327.jpg');
+  }
+
+  54.67% {
+    background-image: url('images/loligod/000328.jpg');
+  }
+
+  54.83% {
+    background-image: url('images/loligod/000329.jpg');
+  }
+
+  55.00% {
+    background-image: url('images/loligod/000330.jpg');
+  }
+
+  55.17% {
+    background-image: url('images/loligod/000331.jpg');
+  }
+
+  55.33% {
+    background-image: url('images/loligod/000332.jpg');
+  }
+
+  55.50% {
+    background-image: url('images/loligod/000333.jpg');
+  }
+
+  55.67% {
+    background-image: url('images/loligod/000334.jpg');
+  }
+
+  55.83% {
+    background-image: url('images/loligod/000335.jpg');
+  }
+
+  56.00% {
+    background-image: url('images/loligod/000336.jpg');
+  }
+
+  56.17% {
+    background-image: url('images/loligod/000337.jpg');
+  }
+
+  56.33% {
+    background-image: url('images/loligod/000338.jpg');
+  }
+
+  56.50% {
+    background-image: url('images/loligod/000339.jpg');
+  }
+
+  56.67% {
+    background-image: url('images/loligod/000340.jpg');
+  }
+
+  56.83% {
+    background-image: url('images/loligod/000341.jpg');
+  }
+
+  57.00% {
+    background-image: url('images/loligod/000342.jpg');
+  }
+
+  57.17% {
+    background-image: url('images/loligod/000343.jpg');
+  }
+
+  57.33% {
+    background-image: url('images/loligod/000344.jpg');
+  }
+
+  57.50% {
+    background-image: url('images/loligod/000345.jpg');
+  }
+
+  57.67% {
+    background-image: url('images/loligod/000346.jpg');
+  }
+
+  57.83% {
+    background-image: url('images/loligod/000347.jpg');
+  }
+
+  58.00% {
+    background-image: url('images/loligod/000348.jpg');
+  }
+
+  58.17% {
+    background-image: url('images/loligod/000349.jpg');
+  }
+
+  58.33% {
+    background-image: url('images/loligod/000350.jpg');
+  }
+
+  58.50% {
+    background-image: url('images/loligod/000351.jpg');
+  }
+
+  58.67% {
+    background-image: url('images/loligod/000352.jpg');
+  }
+
+  58.83% {
+    background-image: url('images/loligod/000353.jpg');
+  }
+
+  59.00% {
+    background-image: url('images/loligod/000354.jpg');
+  }
+
+  59.17% {
+    background-image: url('images/loligod/000355.jpg');
+  }
+
+  59.33% {
+    background-image: url('images/loligod/000356.jpg');
+  }
+
+  59.50% {
+    background-image: url('images/loligod/000357.jpg');
+  }
+
+  59.67% {
+    background-image: url('images/loligod/000358.jpg');
+  }
+
+  59.83% {
+    background-image: url('images/loligod/000359.jpg');
+  }
+
+  60.00% {
+    background-image: url('images/loligod/000360.jpg');
+  }
+
+  60.17% {
+    background-image: url('images/loligod/000361.jpg');
+  }
+
+  60.33% {
+    background-image: url('images/loligod/000362.jpg');
+  }
+
+  60.50% {
+    background-image: url('images/loligod/000363.jpg');
+  }
+
+  60.67% {
+    background-image: url('images/loligod/000364.jpg');
+  }
+
+  60.83% {
+    background-image: url('images/loligod/000365.jpg');
+  }
+
+  61.00% {
+    background-image: url('images/loligod/000366.jpg');
+  }
+
+  61.17% {
+    background-image: url('images/loligod/000367.jpg');
+  }
+
+  61.33% {
+    background-image: url('images/loligod/000368.jpg');
+  }
+
+  61.50% {
+    background-image: url('images/loligod/000369.jpg');
+  }
+
+  61.67% {
+    background-image: url('images/loligod/000370.jpg');
+  }
+
+  61.83% {
+    background-image: url('images/loligod/000371.jpg');
+  }
+
+  62.00% {
+    background-image: url('images/loligod/000372.jpg');
+  }
+
+  62.17% {
+    background-image: url('images/loligod/000373.jpg');
+  }
+
+  62.33% {
+    background-image: url('images/loligod/000374.jpg');
+  }
+
+  62.50% {
+    background-image: url('images/loligod/000375.jpg');
+  }
+
+  62.67% {
+    background-image: url('images/loligod/000376.jpg');
+  }
+
+  62.83% {
+    background-image: url('images/loligod/000377.jpg');
+  }
+
+  63.00% {
+    background-image: url('images/loligod/000378.jpg');
+  }
+
+  63.17% {
+    background-image: url('images/loligod/000379.jpg');
+  }
+
+  63.33% {
+    background-image: url('images/loligod/000380.jpg');
+  }
+
+  63.50% {
+    background-image: url('images/loligod/000381.jpg');
+  }
+
+  63.67% {
+    background-image: url('images/loligod/000382.jpg');
+  }
+
+  63.83% {
+    background-image: url('images/loligod/000383.jpg');
+  }
+
+  64.00% {
+    background-image: url('images/loligod/000384.jpg');
+  }
+
+  64.17% {
+    background-image: url('images/loligod/000385.jpg');
+  }
+
+  64.33% {
+    background-image: url('images/loligod/000386.jpg');
+  }
+
+  64.50% {
+    background-image: url('images/loligod/000387.jpg');
+  }
+
+  64.67% {
+    background-image: url('images/loligod/000388.jpg');
+  }
+
+  64.83% {
+    background-image: url('images/loligod/000389.jpg');
+  }
+
+  65.00% {
+    background-image: url('images/loligod/000390.jpg');
+  }
+
+  65.17% {
+    background-image: url('images/loligod/000391.jpg');
+  }
+
+  65.33% {
+    background-image: url('images/loligod/000392.jpg');
+  }
+
+  65.50% {
+    background-image: url('images/loligod/000393.jpg');
+  }
+
+  65.67% {
+    background-image: url('images/loligod/000394.jpg');
+  }
+
+  65.83% {
+    background-image: url('images/loligod/000395.jpg');
+  }
+
+  66.00% {
+    background-image: url('images/loligod/000396.jpg');
+  }
+
+  66.17% {
+    background-image: url('images/loligod/000397.jpg');
+  }
+
+  66.33% {
+    background-image: url('images/loligod/000398.jpg');
+  }
+
+  66.50% {
+    background-image: url('images/loligod/000399.jpg');
+  }
+
+  66.67% {
+    background-image: url('images/loligod/000400.jpg');
+  }
+
+  66.83% {
+    background-image: url('images/loligod/000401.jpg');
+  }
+
+  67.00% {
+    background-image: url('images/loligod/000402.jpg');
+  }
+
+  67.17% {
+    background-image: url('images/loligod/000403.jpg');
+  }
+
+  67.33% {
+    background-image: url('images/loligod/000404.jpg');
+  }
+
+  67.50% {
+    background-image: url('images/loligod/000405.jpg');
+  }
+
+  67.67% {
+    background-image: url('images/loligod/000406.jpg');
+  }
+
+  67.83% {
+    background-image: url('images/loligod/000407.jpg');
+  }
+
+  68.00% {
+    background-image: url('images/loligod/000408.jpg');
+  }
+
+  68.17% {
+    background-image: url('images/loligod/000409.jpg');
+  }
+
+  68.33% {
+    background-image: url('images/loligod/000410.jpg');
+  }
+
+  68.50% {
+    background-image: url('images/loligod/000411.jpg');
+  }
+
+  68.67% {
+    background-image: url('images/loligod/000412.jpg');
+  }
+
+  68.83% {
+    background-image: url('images/loligod/000413.jpg');
+  }
+
+  69.00% {
+    background-image: url('images/loligod/000414.jpg');
+  }
+
+  69.17% {
+    background-image: url('images/loligod/000415.jpg');
+  }
+
+  69.33% {
+    background-image: url('images/loligod/000416.jpg');
+  }
+
+  69.50% {
+    background-image: url('images/loligod/000417.jpg');
+  }
+
+  69.67% {
+    background-image: url('images/loligod/000418.jpg');
+  }
+
+  69.83% {
+    background-image: url('images/loligod/000419.jpg');
+  }
+
+  70.00% {
+    background-image: url('images/loligod/000420.jpg');
+  }
+
+  70.17% {
+    background-image: url('images/loligod/000421.jpg');
+  }
+
+  70.33% {
+    background-image: url('images/loligod/000422.jpg');
+  }
+
+  70.50% {
+    background-image: url('images/loligod/000423.jpg');
+  }
+
+  70.67% {
+    background-image: url('images/loligod/000424.jpg');
+  }
+
+  70.83% {
+    background-image: url('images/loligod/000425.jpg');
+  }
+
+  71.00% {
+    background-image: url('images/loligod/000426.jpg');
+  }
+
+  71.17% {
+    background-image: url('images/loligod/000427.jpg');
+  }
+
+  71.33% {
+    background-image: url('images/loligod/000428.jpg');
+  }
+
+  71.50% {
+    background-image: url('images/loligod/000429.jpg');
+  }
+
+  71.67% {
+    background-image: url('images/loligod/000430.jpg');
+  }
+
+  71.83% {
+    background-image: url('images/loligod/000431.jpg');
+  }
+
+  72.00% {
+    background-image: url('images/loligod/000432.jpg');
+  }
+
+  72.17% {
+    background-image: url('images/loligod/000433.jpg');
+  }
+
+  72.33% {
+    background-image: url('images/loligod/000434.jpg');
+  }
+
+  72.50% {
+    background-image: url('images/loligod/000435.jpg');
+  }
+
+  72.67% {
+    background-image: url('images/loligod/000436.jpg');
+  }
+
+  72.83% {
+    background-image: url('images/loligod/000437.jpg');
+  }
+
+  73.00% {
+    background-image: url('images/loligod/000438.jpg');
+  }
+
+  73.17% {
+    background-image: url('images/loligod/000439.jpg');
+  }
+
+  73.33% {
+    background-image: url('images/loligod/000440.jpg');
+  }
+
+  73.50% {
+    background-image: url('images/loligod/000441.jpg');
+  }
+
+  73.67% {
+    background-image: url('images/loligod/000442.jpg');
+  }
+
+  73.83% {
+    background-image: url('images/loligod/000443.jpg');
+  }
+
+  74.00% {
+    background-image: url('images/loligod/000444.jpg');
+  }
+
+  74.17% {
+    background-image: url('images/loligod/000445.jpg');
+  }
+
+  74.33% {
+    background-image: url('images/loligod/000446.jpg');
+  }
+
+  74.50% {
+    background-image: url('images/loligod/000447.jpg');
+  }
+
+  74.67% {
+    background-image: url('images/loligod/000448.jpg');
+  }
+
+  74.83% {
+    background-image: url('images/loligod/000449.jpg');
+  }
+
+  75.00% {
+    background-image: url('images/loligod/000450.jpg');
+  }
+
+  75.17% {
+    background-image: url('images/loligod/000451.jpg');
+  }
+
+  75.33% {
+    background-image: url('images/loligod/000452.jpg');
+  }
+
+  75.50% {
+    background-image: url('images/loligod/000453.jpg');
+  }
+
+  75.67% {
+    background-image: url('images/loligod/000454.jpg');
+  }
+
+  75.83% {
+    background-image: url('images/loligod/000455.jpg');
+  }
+
+  76.00% {
+    background-image: url('images/loligod/000456.jpg');
+  }
+
+  76.17% {
+    background-image: url('images/loligod/000457.jpg');
+  }
+
+  76.33% {
+    background-image: url('images/loligod/000458.jpg');
+  }
+
+  76.50% {
+    background-image: url('images/loligod/000459.jpg');
+  }
+
+  76.67% {
+    background-image: url('images/loligod/000460.jpg');
+  }
+
+  76.83% {
+    background-image: url('images/loligod/000461.jpg');
+  }
+
+  77.00% {
+    background-image: url('images/loligod/000462.jpg');
+  }
+
+  77.17% {
+    background-image: url('images/loligod/000463.jpg');
+  }
+
+  77.33% {
+    background-image: url('images/loligod/000464.jpg');
+  }
+
+  77.50% {
+    background-image: url('images/loligod/000465.jpg');
+  }
+
+  77.67% {
+    background-image: url('images/loligod/000466.jpg');
+  }
+
+  77.83% {
+    background-image: url('images/loligod/000467.jpg');
+  }
+
+  78.00% {
+    background-image: url('images/loligod/000468.jpg');
+  }
+
+  78.17% {
+    background-image: url('images/loligod/000469.jpg');
+  }
+
+  78.33% {
+    background-image: url('images/loligod/000470.jpg');
+  }
+
+  78.50% {
+    background-image: url('images/loligod/000471.jpg');
+  }
+
+  78.67% {
+    background-image: url('images/loligod/000472.jpg');
+  }
+
+  78.83% {
+    background-image: url('images/loligod/000473.jpg');
+  }
+
+  79.00% {
+    background-image: url('images/loligod/000474.jpg');
+  }
+
+  79.17% {
+    background-image: url('images/loligod/000475.jpg');
+  }
+
+  79.33% {
+    background-image: url('images/loligod/000476.jpg');
+  }
+
+  79.50% {
+    background-image: url('images/loligod/000477.jpg');
+  }
+
+  79.67% {
+    background-image: url('images/loligod/000478.jpg');
+  }
+
+  79.83% {
+    background-image: url('images/loligod/000479.jpg');
+  }
+
+  80.00% {
+    background-image: url('images/loligod/000480.jpg');
+  }
+
+  80.17% {
+    background-image: url('images/loligod/000481.jpg');
+  }
+
+  80.33% {
+    background-image: url('images/loligod/000482.jpg');
+  }
+
+  80.50% {
+    background-image: url('images/loligod/000483.jpg');
+  }
+
+  80.67% {
+    background-image: url('images/loligod/000484.jpg');
+  }
+
+  80.83% {
+    background-image: url('images/loligod/000485.jpg');
+  }
+
+  81.00% {
+    background-image: url('images/loligod/000486.jpg');
+  }
+
+  81.17% {
+    background-image: url('images/loligod/000487.jpg');
+  }
+
+  81.33% {
+    background-image: url('images/loligod/000488.jpg');
+  }
+
+  81.50% {
+    background-image: url('images/loligod/000489.jpg');
+  }
+
+  81.67% {
+    background-image: url('images/loligod/000490.jpg');
+  }
+
+  81.83% {
+    background-image: url('images/loligod/000491.jpg');
+  }
+
+  82.00% {
+    background-image: url('images/loligod/000492.jpg');
+  }
+
+  82.17% {
+    background-image: url('images/loligod/000493.jpg');
+  }
+
+  82.33% {
+    background-image: url('images/loligod/000494.jpg');
+  }
+
+  82.50% {
+    background-image: url('images/loligod/000495.jpg');
+  }
+
+  82.67% {
+    background-image: url('images/loligod/000496.jpg');
+  }
+
+  82.83% {
+    background-image: url('images/loligod/000497.jpg');
+  }
+
+  83.00% {
+    background-image: url('images/loligod/000498.jpg');
+  }
+
+  83.17% {
+    background-image: url('images/loligod/000499.jpg');
+  }
+
+  83.33% {
+    background-image: url('images/loligod/000500.jpg');
+  }
+
+  83.50% {
+    background-image: url('images/loligod/000501.jpg');
+  }
+
+  83.67% {
+    background-image: url('images/loligod/000502.jpg');
+  }
+
+  83.83% {
+    background-image: url('images/loligod/000503.jpg');
+  }
+
+  84.00% {
+    background-image: url('images/loligod/000504.jpg');
+  }
+
+  84.17% {
+    background-image: url('images/loligod/000505.jpg');
+  }
+
+  84.33% {
+    background-image: url('images/loligod/000506.jpg');
+  }
+
+  84.50% {
+    background-image: url('images/loligod/000507.jpg');
+  }
+
+  84.67% {
+    background-image: url('images/loligod/000508.jpg');
+  }
+
+  84.83% {
+    background-image: url('images/loligod/000509.jpg');
+  }
+
+  85.00% {
+    background-image: url('images/loligod/000510.jpg');
+  }
+
+  85.17% {
+    background-image: url('images/loligod/000511.jpg');
+  }
+
+  85.33% {
+    background-image: url('images/loligod/000512.jpg');
+  }
+
+  85.50% {
+    background-image: url('images/loligod/000513.jpg');
+  }
+
+  85.67% {
+    background-image: url('images/loligod/000514.jpg');
+  }
+
+  85.83% {
+    background-image: url('images/loligod/000515.jpg');
+  }
+
+  86.00% {
+    background-image: url('images/loligod/000516.jpg');
+  }
+
+  86.17% {
+    background-image: url('images/loligod/000517.jpg');
+  }
+
+  86.33% {
+    background-image: url('images/loligod/000518.jpg');
+  }
+
+  86.50% {
+    background-image: url('images/loligod/000519.jpg');
+  }
+
+  86.67% {
+    background-image: url('images/loligod/000520.jpg');
+  }
+
+  86.83% {
+    background-image: url('images/loligod/000521.jpg');
+  }
+
+  87.00% {
+    background-image: url('images/loligod/000522.jpg');
+  }
+
+  87.17% {
+    background-image: url('images/loligod/000523.jpg');
+  }
+
+  87.33% {
+    background-image: url('images/loligod/000524.jpg');
+  }
+
+  87.50% {
+    background-image: url('images/loligod/000525.jpg');
+  }
+
+  87.67% {
+    background-image: url('images/loligod/000526.jpg');
+  }
+
+  87.83% {
+    background-image: url('images/loligod/000527.jpg');
+  }
+
+  88.00% {
+    background-image: url('images/loligod/000528.jpg');
+  }
+
+  88.17% {
+    background-image: url('images/loligod/000529.jpg');
+  }
+
+  88.33% {
+    background-image: url('images/loligod/000530.jpg');
+  }
+
+  88.50% {
+    background-image: url('images/loligod/000531.jpg');
+  }
+
+  88.67% {
+    background-image: url('images/loligod/000532.jpg');
+  }
+
+  88.83% {
+    background-image: url('images/loligod/000533.jpg');
+  }
+
+  89.00% {
+    background-image: url('images/loligod/000534.jpg');
+  }
+
+  89.17% {
+    background-image: url('images/loligod/000535.jpg');
+  }
+
+  89.33% {
+    background-image: url('images/loligod/000536.jpg');
+  }
+
+  89.50% {
+    background-image: url('images/loligod/000537.jpg');
+  }
+
+  89.67% {
+    background-image: url('images/loligod/000538.jpg');
+  }
+
+  89.83% {
+    background-image: url('images/loligod/000539.jpg');
+  }
+
+  90.00% {
+    background-image: url('images/loligod/000540.jpg');
+  }
+
+  90.17% {
+    background-image: url('images/loligod/000541.jpg');
+  }
+
+  90.33% {
+    background-image: url('images/loligod/000542.jpg');
+  }
+
+  90.50% {
+    background-image: url('images/loligod/000543.jpg');
+  }
+
+  90.67% {
+    background-image: url('images/loligod/000544.jpg');
+  }
+
+  90.83% {
+    background-image: url('images/loligod/000545.jpg');
+  }
+
+  91.00% {
+    background-image: url('images/loligod/000546.jpg');
+  }
+
+  91.17% {
+    background-image: url('images/loligod/000547.jpg');
+  }
+
+  91.33% {
+    background-image: url('images/loligod/000548.jpg');
+  }
+
+  91.50% {
+    background-image: url('images/loligod/000549.jpg');
+  }
+
+  91.67% {
+    background-image: url('images/loligod/000550.jpg');
+  }
+
+  91.83% {
+    background-image: url('images/loligod/000551.jpg');
+  }
+
+  92.00% {
+    background-image: url('images/loligod/000552.jpg');
+  }
+
+  92.17% {
+    background-image: url('images/loligod/000553.jpg');
+  }
+
+  92.33% {
+    background-image: url('images/loligod/000554.jpg');
+  }
+
+  92.50% {
+    background-image: url('images/loligod/000555.jpg');
+  }
+
+  92.67% {
+    background-image: url('images/loligod/000556.jpg');
+  }
+
+  92.83% {
+    background-image: url('images/loligod/000557.jpg');
+  }
+
+  93.00% {
+    background-image: url('images/loligod/000558.jpg');
+  }
+
+  93.17% {
+    background-image: url('images/loligod/000559.jpg');
+  }
+
+  93.33% {
+    background-image: url('images/loligod/000560.jpg');
+  }
+
+  93.50% {
+    background-image: url('images/loligod/000561.jpg');
+  }
+
+  93.67% {
+    background-image: url('images/loligod/000562.jpg');
+  }
+
+  93.83% {
+    background-image: url('images/loligod/000563.jpg');
+  }
+
+  94.00% {
+    background-image: url('images/loligod/000564.jpg');
+  }
+
+  94.17% {
+    background-image: url('images/loligod/000565.jpg');
+  }
+
+  94.33% {
+    background-image: url('images/loligod/000566.jpg');
+  }
+
+  94.50% {
+    background-image: url('images/loligod/000567.jpg');
+  }
+
+  94.67% {
+    background-image: url('images/loligod/000568.jpg');
+  }
+
+  94.83% {
+    background-image: url('images/loligod/000569.jpg');
+  }
+
+  95.00% {
+    background-image: url('images/loligod/000570.jpg');
+  }
+
+  95.17% {
+    background-image: url('images/loligod/000571.jpg');
+  }
+
+  95.33% {
+    background-image: url('images/loligod/000572.jpg');
+  }
+
+  95.50% {
+    background-image: url('images/loligod/000573.jpg');
+  }
+
+  95.67% {
+    background-image: url('images/loligod/000574.jpg');
+  }
+
+  95.83% {
+    background-image: url('images/loligod/000575.jpg');
+  }
+
+  96.00% {
+    background-image: url('images/loligod/000576.jpg');
+  }
+
+  96.17% {
+    background-image: url('images/loligod/000577.jpg');
+  }
+
+  96.33% {
+    background-image: url('images/loligod/000578.jpg');
+  }
+
+  96.50% {
+    background-image: url('images/loligod/000579.jpg');
+  }
+
+  96.67% {
+    background-image: url('images/loligod/000580.jpg');
+  }
+
+  96.83% {
+    background-image: url('images/loligod/000581.jpg');
+  }
+
+  97.00% {
+    background-image: url('images/loligod/000582.jpg');
+  }
+
+  97.17% {
+    background-image: url('images/loligod/000583.jpg');
+  }
+
+  97.33% {
+    background-image: url('images/loligod/000584.jpg');
+  }
+
+  97.50% {
+    background-image: url('images/loligod/000585.jpg');
+  }
+
+  97.67% {
+    background-image: url('images/loligod/000586.jpg');
+  }
+
+  97.83% {
+    background-image: url('images/loligod/000587.jpg');
+  }
+
+  98.00% {
+    background-image: url('images/loligod/000588.jpg');
+  }
+
+  98.17% {
+    background-image: url('images/loligod/000589.jpg');
+  }
+
+  98.33% {
+    background-image: url('images/loligod/000590.jpg');
+  }
+
+  98.50% {
+    background-image: url('images/loligod/000591.jpg');
+  }
+
+  98.67% {
+    background-image: url('images/loligod/000592.jpg');
+  }
+
+  98.83% {
+    background-image: url('images/loligod/000593.jpg');
+  }
+
+  99.00% {
+    background-image: url('images/loligod/000594.jpg');
+  }
+
+  99.17% {
+    background-image: url('images/loligod/000595.jpg');
+  }
+
+  99.33% {
+    background-image: url('images/loligod/000596.jpg');
+  }
+
+  99.50% {
+    background-image: url('images/loligod/000597.jpg');
+  }
+
+  99.67% {
+    background-image: url('images/loligod/000598.jpg');
+  }
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(calc(75px + 2rem));
+  }
+  40% {
+    transform: translateX(calc(125px + 4rem));
+  }
+  60% {
+    transform: translateX(calc(125px + 4rem));
+  }
+  80% {
+    transform: translateX(calc(75px + 2rem));
+  }
+}
