@@ -2419,22 +2419,3 @@ body {
     background-image: url('images/loligod/000598.webp');
   }
 }
-
-@keyframes move {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  20% {
-    transform: translateX(calc(75px + 2rem));
-  }
-  40% {
-    transform: translateX(calc(125px + 4rem));
-  }
-  60% {
-    transform: translateX(calc(125px + 4rem));
-  }
-  80% {
-    transform: translateX(calc(75px + 2rem));
-  }
-}
